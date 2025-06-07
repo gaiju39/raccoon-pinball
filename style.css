@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+canvas {
+  background: url("assets/raccoon-bg.png") no-repeat center/cover;
+  display: block;
+  border: 3px solid #444;
+}
+
+#ui {
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  font-family: monospace;
+}
+
+#restartBtn {
+  background: #f90;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
